@@ -14,3 +14,9 @@
 /* Final manicure & pedicure hero with custom gold illustration */
 .nails-page{background-image:linear-gradient(90deg,rgba(31,24,21,.82) 0%,rgba(31,24,21,.38) 38%,rgba(31,24,21,.04) 72%),url('marcsi-arany-manikur.png');background-size:cover;background-position:center;background-repeat:no-repeat}
 @media(min-width:901px){.nails-page{min-height:540px;background-size:cover;background-position:center}.nails-page:before{background:linear-gradient(90deg,rgba(28,22,20,.82) 0%,rgba(28,22,20,.48) 28%,rgba(28,22,20,.04) 58%,rgba(28,22,20,.06) 100%)}.nails-page:after{display:none}.nails-page>div{max-width:620px}}
+
+footer .mahli-credit{color:#d8b276;text-decoration:none;margin-left:6px;transition:color .2s ease}
+footer .mahli-credit strong{font-family:"Playfair Display",serif;font-size:14px;letter-spacing:.3px}
+footer .mahli-credit:hover{color:#fff}
+.footer-sep{margin:0 4px;color:#786963}
+@media(max-width:560px){footer .footer-sep{display:none}footer .mahli-credit{display:block;margin:8px 0 0}}
