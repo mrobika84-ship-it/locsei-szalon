@@ -20,3 +20,16 @@ footer .mahli-credit strong{font-family:"Playfair Display",serif;font-size:14px;
 footer .mahli-credit:hover{color:#fff}
 .footer-sep{margin:0 4px;color:#786963}
 @media(max-width:560px){footer .footer-sep{display:none}footer .mahli-credit{display:block;margin:8px 0 0}}
+
+/* Mahli Digital credit – readable gold on mobile */
+footer a.mahli-credit,
+footer a.mahli-credit:link,
+footer a.mahli-credit:visited{color:#d9ad63!important;text-decoration:none!important}
+footer a.mahli-credit:hover,
+footer a.mahli-credit:active{color:#f2cf91!important}
+@media(max-width:560px){
+ footer a.mahli-credit,
+ footer a.mahli-credit:link,
+ footer a.mahli-credit:visited{color:#e1b766!important;text-decoration:none!important;font-weight:500}
+ footer a.mahli-credit strong{color:#efc879!important;font-size:15px}
+}
