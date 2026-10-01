@@ -33,3 +33,17 @@ footer a.mahli-credit:active{color:#f2cf91!important}
  footer a.mahli-credit:visited{color:#e1b766!important;text-decoration:none!important;font-weight:500}
  footer a.mahli-credit strong{color:#efc879!important;font-size:15px}
 }
+
+/* Two-service homepage layout */
+@media (min-width: 901px){
+  #szolgaltatasok .cards{
+    max-width:1120px;
+    margin-left:auto;
+    margin-right:auto;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:28px;
+  }
+  #szolgaltatasok .card{
+    min-height:430px;
+  }
+}
