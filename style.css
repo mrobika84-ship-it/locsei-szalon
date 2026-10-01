@@ -82,3 +82,7 @@ header{position:sticky;top:0;z-index:1000}
 @media(max-width:430px){
  header nav{margin-top:-10px!important}
 }
+
+/* Fine tune mobile nav spacing */
+@media(max-width:900px){header nav{margin-top:-3px!important}}
+@media(max-width:430px){header nav{margin-top:-4px!important}}
