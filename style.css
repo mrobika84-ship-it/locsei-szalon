@@ -113,3 +113,8 @@ header{position:sticky;top:0;z-index:1000}
 
 /* Marcsi – selected original photo for Manikűr & Pedikűr */
 #szolgaltatasok .card.nails{background-image:url('viber_kép_2026-10-01_20-34-06-681.jpg');background-position:center 38%}
+
+/* Homepage hero crop: keep menu and both women's faces fully visible */
+@media(min-width:901px){
+  .hero{min-height:650px;background-size:cover;background-position:center 38%;}
+}
