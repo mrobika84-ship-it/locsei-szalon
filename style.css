@@ -168,3 +168,9 @@ header{position:sticky;top:0;z-index:1000}
     background-position:center center!important;
   }
 }
+
+/* Lightbox gallery navigation */
+.lightbox-prev,.lightbox-next{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:54px;height:70px;border:0;border-radius:8px;background:rgba(0,0,0,.38);color:#fff;font-size:52px;line-height:1;cursor:pointer}
+.lightbox-prev{left:18px}.lightbox-next{right:18px}
+.lightbox-close{z-index:3}
+@media(max-width:560px){.lightbox{padding:16px 8px}.lightbox-prev,.lightbox-next{width:44px;height:60px;font-size:44px}.lightbox-prev{left:5px}.lightbox-next{right:5px}.lightbox-close{top:8px;right:12px}}
