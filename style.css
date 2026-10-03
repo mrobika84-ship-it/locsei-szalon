@@ -88,7 +88,7 @@ header{position:sticky;top:0;z-index:1000}
 @media(max-width:430px){header nav{margin-top:-4px!important}}
 
 /* Homepage hero: custom Andi, Marcsi & dog artwork */
-.hero{background-image:url('Szépség, harmónia és szeretet.png');background-size:cover;background-position:center;background-repeat:no-repeat;min-height:650px}
+.hero{background-image:url('Lőcsei Szalon – Szépség és Harmónia (1).png');background-size:cover;background-position:center;background-repeat:no-repeat;min-height:650px}
 .hero-inner{max-width:700px;margin-left:10vw;color:var(--ink)}
 .hero .btn{position:relative;z-index:2;margin-top:300px}
 @media(max-width:900px){.hero{min-height:580px;background-position:62% center}.hero-inner{margin:0 24px}.hero .btn{margin-top:300px}}
