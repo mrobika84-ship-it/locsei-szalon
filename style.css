@@ -93,3 +93,9 @@ header{position:sticky;top:0;z-index:1000}
 .hero .btn{position:relative;z-index:2;margin-top:300px}
 @media(max-width:900px){.hero{min-height:580px;background-position:62% center}.hero-inner{margin:0 24px}.hero .btn{margin-top:300px}}
 @media(max-width:560px){.hero{min-height:520px;background-position:67% center}.hero .btn{margin-top:320px}}
+
+/* Homepage hero alignment: show the complete artwork below the sticky header */
+.hero{background-position:center top;min-height:650px}
+.hero-inner{display:none}
+@media(min-width:901px){.hero{background-size:cover;background-position:center top}}
+@media(max-width:900px){.hero{background-size:cover;background-position:center top;min-height:580px}}
