@@ -147,3 +147,24 @@ header{position:sticky;top:0;z-index:1000}
     background-repeat:no-repeat!important;
   }
 }
+
+/* Mobile hero final: show complete artwork including both women */
+@media(max-width:900px){
+  .hero{
+    min-height:0!important;
+    height:auto!important;
+    aspect-ratio:1998 / 768;
+    background-size:100% 100%!important;
+    background-position:center center!important;
+    background-repeat:no-repeat!important;
+  }
+}
+@media(max-width:560px){
+  .hero{
+    min-height:0!important;
+    height:auto!important;
+    aspect-ratio:1998 / 768;
+    background-size:100% 100%!important;
+    background-position:center center!important;
+  }
+}
