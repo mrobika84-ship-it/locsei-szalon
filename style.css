@@ -118,3 +118,11 @@ header{position:sticky;top:0;z-index:1000}
 @media(min-width:901px){
   .hero{min-height:650px;background-size:cover;background-position:center 38%;}
 }
+
+/* Mobile homepage hero: show both Andi and Marcsi */
+@media(max-width:900px){
+  .hero{background-size:auto 100%;background-position:62% center;background-repeat:no-repeat;min-height:580px;background-color:var(--cream)}
+}
+@media(max-width:560px){
+  .hero{background-size:auto 100%;background-position:63% center;min-height:520px}
+}
