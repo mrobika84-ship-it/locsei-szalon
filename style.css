@@ -110,3 +110,6 @@ header{position:sticky;top:0;z-index:1000}
 
 /* Andi – selected original photo for Fodrászat */
 #szolgaltatasok .card.hair{background-image:url('viber_kép_2026-10-01_20-34-06-572.jpg');background-position:center 38%}
+
+/* Marcsi – selected original photo for Manikűr & Pedikűr */
+#szolgaltatasok .card.nails{background-image:url('viber_kép_2026-10-01_20-34-06-681.jpg');background-position:center 38%}
