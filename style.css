@@ -135,3 +135,15 @@ header{position:sticky;top:0;z-index:1000}
     background-position:center 48%;
   }
 }
+
+/* Desktop hero final: show the complete artwork without cropping */
+@media(min-width:901px){
+  .hero{
+    min-height:0!important;
+    height:auto!important;
+    aspect-ratio:1998 / 768;
+    background-size:100% 100%!important;
+    background-position:center center!important;
+    background-repeat:no-repeat!important;
+  }
+}
