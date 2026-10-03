@@ -107,3 +107,6 @@ header{position:sticky;top:0;z-index:1000}
 /* Corrected homepage service portraits: Andi = blonde hairdresser, Marcsi = dark-haired manicure/pedicure */
 #szolgaltatasok .card.hair{background-image:url('viber_kép_2026-10-01_20-34-06-549.jpg');background-position:center 35%}
 #szolgaltatasok .card.nails{background-image:url('viber_kép_2026-10-01_20-34-06-702.jpg');background-position:center 35%}
+
+/* Andi – selected original photo for Fodrászat */
+#szolgaltatasok .card.hair{background-image:url('viber_kép_2026-10-01_20-34-06-572.jpg');background-position:center 38%}
