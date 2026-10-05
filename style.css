@@ -205,3 +205,18 @@ header .brand.brand-logo img{height:78px;max-width:300px}
  header .brand.brand-logo img{height:55px;max-width:220px}
  .about-logo{width:92%}
 }
+
+/* Mobile header polish: larger logo and fully visible menu */
+@media(max-width:900px){
+ header{padding:6px 8px 10px!important;row-gap:3px!important}
+ header .brand{margin-bottom:0!important;transform:none!important}
+ header .brand.brand-logo img{height:72px!important;max-width:280px!important}
+ header nav{margin-top:0!important;padding:0 2px!important}
+ header nav a{padding:8px 6px!important;font-size:11px!important;line-height:1.15!important}
+}
+@media(max-width:430px){
+ header{padding:5px 4px 9px!important}
+ header .brand.brand-logo img{height:68px!important;max-width:265px!important}
+ header nav{margin-top:0!important}
+ header nav a{padding:7px 4px!important;font-size:10.5px!important}
+}
