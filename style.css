@@ -262,3 +262,17 @@ header .brand.brand-logo img{height:78px;max-width:300px}
 #szolgaltatasok .card b{font-size:14px}
 #szolgaltatasok .card.hair{background-position:center center}
 @media(max-width:560px){#szolgaltatasok .card>div{bottom:20px!important;left:20px!important;right:20px!important}}
+
+/* Refined three-card layout based on approved reference */
+#szolgaltatasok .cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1320px}
+#szolgaltatasok .card{height:450px;min-height:450px;overflow:hidden}
+#szolgaltatasok .card.hair{background-image:url('viber_kép_2026-10-01_20-34-06-346.jpg');background-position:center 38%}
+#szolgaltatasok .card.nails{background-position:center 38%}
+#szolgaltatasok .card.lashes{background-position:center 48%}
+#szolgaltatasok .card::after{background:linear-gradient(to bottom,rgba(18,13,12,0) 37%,rgba(18,13,12,.28) 58%,rgba(18,13,12,.94) 100%);z-index:1}
+#szolgaltatasok .card>div{bottom:28px!important;left:28px!important;right:24px!important;z-index:2!important}
+#szolgaltatasok .card h3{font-size:clamp(24px,2.25vw,34px);font-family:"Playfair Display",Georgia,serif;line-height:1.2;margin:0 0 12px!important}
+#szolgaltatasok .card p{font-size:14px;line-height:1.5;margin:0 0 15px!important}
+#szolgaltatasok .card b{color:#d9b36c!important;font-size:16px}
+@media(max-width:900px){#szolgaltatasok .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+@media(max-width:600px){#szolgaltatasok .cards{grid-template-columns:1fr;gap:20px}#szolgaltatasok .card{height:430px;min-height:430px}}
