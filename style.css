@@ -276,3 +276,6 @@ header .brand.brand-logo img{height:78px;max-width:300px}
 #szolgaltatasok .card b{color:#d9b36c!important;font-size:16px}
 @media(max-width:900px){#szolgaltatasok .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
 @media(max-width:600px){#szolgaltatasok .cards{grid-template-columns:1fr;gap:20px}#szolgaltatasok .card{height:430px;min-height:430px}}
+
+/* Andi cover: clean uploaded photo without embedded text */
+#szolgaltatasok .card.hair{background-image:url('andi-borito-uj.png')!important;background-position:center 38%;background-size:cover}
