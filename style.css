@@ -250,3 +250,15 @@ header .brand.brand-logo img{height:78px;max-width:300px}
 
 /* Three matching homepage service cards */
 #szolgaltatasok .cards{grid-template-columns:repeat(3,minmax(0,1fr));max-width:1200px;margin-left:auto;margin-right:auto}#szolgaltatasok .card.lashes{background-image:url('uv-szempilla-szalon.jpg');background-position:center;background-size:cover}#szolgaltatasok .card.lashes::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(0,0,0,.72) 100%);pointer-events:none}#szolgaltatasok .card.lashes>div{position:relative;z-index:1}@media(max-width:850px){#szolgaltatasok .cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){#szolgaltatasok .cards{grid-template-columns:1fr}}
+
+/* Fix service card labels: shared bottom alignment and avoid overlay duplication */
+#szolgaltatasok .card{display:block;position:relative;isolation:isolate;color:#fff}
+#szolgaltatasok .card::after{z-index:0;pointer-events:none}
+#szolgaltatasok .card.lashes::before{display:none}
+#szolgaltatasok .card>div{position:absolute!important;top:auto!important;bottom:24px!important;left:24px!important;right:24px!important;z-index:3!important;transform:none!important;text-align:left!important;margin:0!important}
+#szolgaltatasok .card h3,#szolgaltatasok .card p,#szolgaltatasok .card b{position:static!important;transform:none!important;color:white!important;opacity:1!important;display:block!important;text-shadow:0 1px 3px rgba(0,0,0,.35)}
+#szolgaltatasok .card h3{font-size:clamp(22px,2vw,28px);margin:0 0 8px!important}
+#szolgaltatasok .card p{font-size:13px;line-height:1.5;margin:0 0 12px!important}
+#szolgaltatasok .card b{font-size:14px}
+#szolgaltatasok .card.hair{background-position:center center}
+@media(max-width:560px){#szolgaltatasok .card>div{bottom:20px!important;left:20px!important;right:20px!important}}
